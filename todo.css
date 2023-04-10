@@ -57,7 +57,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-#todo-text {
+#todo-text{
     width: 100%;
     font-size: 20px;
     letter-spacing: 1.5px;
@@ -82,3 +82,27 @@ h1 {
     background-color: rgb(5, 245, 233);
 
 }
+ul {
+    margin: 0;
+    padding: 0;
+  }
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: none;
+    font-size: 18px;
+    transition: 0.2s;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    user-select: none;
+    text-align: left;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
